@@ -5,10 +5,10 @@ proxies:
   port: 443
   password: 18314307-dae6-4eaf-811d-12ab12143bdc
   udp: true
-  sni: vamelsstr.syaefudinmtc.store
+  sni: vamelsstr.syaefudinmtc.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojan-ws"
     headers:
-      Host: vamelsstr.syaefudinmtc.store
+      Host: vamelsstr.syaefudinmtc.my.id
