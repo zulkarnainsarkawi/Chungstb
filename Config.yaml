@@ -1,0 +1,67 @@
+proxies:
+- name: IMD
+  type: trojan
+  server: support.zoom.us
+  port: 443
+  password: 36e26f49-55f7-49cb-ac8a-07c439a9752e
+  udp: true
+  sni: vamels.syaefudinmtc.store
+  skip-cert-verify: true
+ - name: AHZ
+  type: trojan
+  server: 172.67.5.14
+  port: 443
+  password: ed079dd6-d017-42f9-88dc-f3abce3384b2
+  udp: true
+  sni: vamels.syaefudinmtc.store
+  skip-cert-verify: true
+ - name: shr
+  type: trojan
+  server: 104.17.3.81
+  port: 443
+  password: 260c0088-a745-4593-abc9-2f73a6f47785
+  udp: true
+  sni: id1-rhb.feristore.my.id
+  skip-cert-verify: true
+ -- name: MasZulkarnain1thn
+  type: trojan
+  server: 172.67.5.14
+  port: 443
+  password: e6531ad5-c788-4feb-8bf4-d67b57df9ed0
+  udp: true
+  sni: syaefudinmtc.store
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/whatever/trojan-ws"
+    headers:
+      Host: syaefudinmtc.store
+- name: 1tahunilpedZul WS (CDN) TLS
+  type: vmess
+  server: 172.67.5.14
+  port: 443
+  uuid: 3929917c-5d31-4fb6-a85f-74e65f26298a
+  alterId: 0
+  cipher: auto
+  udp: true
+  xudp: true
+  global-padding: false
+  authenticated-length: false
+  skip-cert-verify: true
+  tls: false
+  client-fingerprint: none
+  ip-version: ipv4-prefer
+  tfo: false
+  smux:
+    enabled: false
+  type: trojan
+  server: 172.67.5.14
+  port: 443
+  password: 18314307-dae6-4eaf-811d-12ab12143bdc
+  udp: true
+  sni: vamelsstr.syaefudinmtc.store.my.id
+  skip-cert-verify: true
+  ip-version: ipv4-prefer
+  tfo: false
+  smux:
+    enabled: false
