@@ -15,8 +15,25 @@ proxies:
 - name: Chungleo-GitHub
   type: trojan
   server: 172.67.5.14
+  proxies:
+- name: Zulkarnain-GitHub
+  type: trojan
+  server: 172.67.5.14
   port: 443
-  password: 2fb468d3-4e8c-48a5-94a8-6ed31da9509f
+  password: 46ea1e9b-35be-447b-ab99-695a14b3347d
+  udp: true
+  sni: id-ikd2.wc-webkuy.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: id-ikd2.wc-webkuy.web.id
+- name: Chungleo-GitHub
+  type: trojan
+  server: 172.67.5.14
+  port: 443
+  password: 
   udp: true
   sni: fatir.syaefudinmtc.my.id
   skip-cert-verify: true
@@ -24,4 +41,4 @@ proxies:
   ws-opts:
     path: "/whatever/trojan-ws"
     headers:
-      Host: fatir.syaefudinmtc.my.id
+      Host: fatir.syaefudinmtc.my.i
