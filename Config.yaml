@@ -3,15 +3,15 @@ proxies:
   type: trojan
   server: 172.67.5.14
   port: 443
-  password: 18314307-dae6-4eaf-811d-12ab12143bdc
+  password: 46ea1e9b-35be-447b-ab99-695a14b3347d
   udp: true
-  sni: vamelsstr.syaefudinmtc.my.id
+  sni: id-ikd2.wc-webkuy.web.id
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: "/trojan-ws"
+    path: "/trojan"
     headers:
-      Host: vamelsstr.syaefudinmtc.my.id
+      Host: id-ikd2.wc-webkuy.web.id
 - name: Chungleo-GitHub
   type: trojan
   server: 172.67.5.14
