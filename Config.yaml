@@ -19,10 +19,10 @@ proxies:
   port: 443
   password: 9f74384b-ed7a-4072-8f2e-c0f04a327b11
   udp: true
-  sni: fatir.syaefudinmtc.my.id
+  sni: id-dwb.wc-webkuy.web.id
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: "/whatever/trojan-ws"
+    path: "/trojan"
     headers:
-      Host: fatir.syaefudinmtc.my.i
+      Host: id-dwb.wc-webkuy.web.id
