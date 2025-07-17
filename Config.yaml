@@ -15,7 +15,7 @@ proxies:
 
 - name: Chungleo-GitHub
   type: trojan
-  server: 172.67.5.14
+  server: quiz.int.vidio.com
   port: 443
   password: 9f74384b-ed7a-4072-8f2e-c0f04a327b11
   udp: true
