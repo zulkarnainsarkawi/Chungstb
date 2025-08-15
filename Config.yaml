@@ -3,15 +3,15 @@ proxies:
   type: trojan
   server: quiz.int.vidio.com
   port: 443
-  password: 46ea1e9b-35be-447b-ab99-695a14b3347d
+  password: 912b78ee-0137-4403-8f6b-8bae2455805f
   udp: true
-  sni: id-ikd2.wc-webkuy.web.id
+  sni: id-rajasa.rmatstore.vip
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojan"
     headers:
-      Host: id-ikd2.wc-webkuy.web.id
+      Host: id-rajasa.rmatstore.vip
 
 - name: Chungleo-GitHub
   type: trojan
