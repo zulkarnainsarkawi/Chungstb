@@ -4,13 +4,13 @@ proxies:
   server: 104.17.3.81
   port: 443
   password: b25ecb97-8584-45cd-bf6b-285cadd69788
-  sni: d-hz2.wc-webkuy.web.id
+  sni: id-hz2.wc-webkuy.web.id
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojan"
     headers:
-      Host: d-hz2.wc-webkuy.web.id
+      Host: id-hz2.wc-webkuy.web.id
 
 - name: Chungleo-GitHub
   type: trojan
